@@ -12,6 +12,7 @@ jobs:
             aws cloudformation deploy \
               --template-file .circleci/template.yml \
               --stack-name deploy-demo
+              
 workflows:
   my_workflow:
     jobs:
